@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "232852298683",
+    "firebase_url": "https://cloud-viewer-1768b.firebaseio.com",
+    "project_id": "cloud-viewer-1768b",
+    "storage_bucket": "cloud-viewer-1768b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232852298683:android:6137692a3f75ef6a",
+        "android_client_info": {
+          "package_name": "com.example.taps.cloudviewer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232852298683-po13rmvbenppoidvr8isrcflc9aspaei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.taps.cloudviewer",
+            "certificate_hash": "00ebaa176d501fe5a1f40b26106c3b8944243d55"
+          }
+        },
+        {
+          "client_id": "232852298683-ies485grt8qr9g7lqjghcvd07b2d2tla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeloQ5Zrl5pTYEVcCdXyRXVP3NikBHc9E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232852298683-ies485grt8qr9g7lqjghcvd07b2d2tla.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
