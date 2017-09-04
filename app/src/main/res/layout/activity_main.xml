@@ -5,25 +5,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.taps.cloudviewer.MainActivity"
-    >
+    tools:context="com.fizaro.apphdwallpaper.studio.MainActivity"
+    android:orientation="vertical">
 
-    <android.support.v4.view.ViewPager
-        android:id="@+id/vp"
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/toolbarhome"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+    <com.fizaro.apphdwallpaper.studio.SlidingTabLayout
+        android:id="@+id/tabs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:elevation="2dp"
         android:background="@color/colorPrimaryDark"
         >
 
+    </com.fizaro.apphdwallpaper.studio.SlidingTabLayout>
 
-        <android.support.v4.view.PagerTabStrip
-            android:id="@+id/pt"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
 
-            >
-
-        </android.support.v4.view.PagerTabStrip>
+        >
 
     </android.support.v4.view.ViewPager>
+
+
 </LinearLayout>

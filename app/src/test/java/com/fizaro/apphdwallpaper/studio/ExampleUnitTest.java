@@ -1,4 +1,4 @@
-package com.example.taps.cloudviewer;
+package com.fizaro.apphdwallpaper.studio;
 
 import org.junit.Test;
 

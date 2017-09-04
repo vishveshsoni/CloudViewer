@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.example.taps.cloudviewer.SquareLayout
+<com.fizaro.apphdwallpaper.studio.SquareLayout
 
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -16,4 +16,4 @@
         android:cropToPadding="false"
         android:scaleType="fitXY" />
 
-</com.example.taps.cloudviewer.SquareLayout>
+</com.fizaro.apphdwallpaper.studio.SquareLayout>
